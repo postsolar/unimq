@@ -2,6 +2,15 @@
 
 A small CLI program to read from the standard input and output consequent unique lines like `uniq`, but without needing to sort them and with ability to specify a field (or a range of fields) to determine uniqueness.
 
+### Installation
+
+Either compile it using Nim compiler, with
+```
+> nim c -d:release unimq.nim
+```
+
+…or grab the binary from the [releases](https://github.com/postsolar/unimq/releases) page.
+
 ### Usage
 
 #### Arguments
